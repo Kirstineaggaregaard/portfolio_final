@@ -286,12 +286,18 @@ header nav a {
 }
 
 video {
-    width: 90%;
+    width: 100%;
     border-radius: 2.5rem;
     align-self: center;
 }
 
-
+.video_txt {
+    text-align: center;
+    font-family: condor-wide, sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+}
 
 .beskrivelse {
     width: 90%;
@@ -474,8 +480,14 @@ video {
         justify-self: start;
     }
 
+    video {
+        margin-top: 3rem;
+    }
 
-    .beskrivelse {}
+
+    .beskrivelse {
+        margin: 3rem 5rem;
+    }
 
     #screendumps {
         grid-template-columns: 1fr 1fr 1fr 1fr;
