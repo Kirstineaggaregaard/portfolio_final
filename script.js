@@ -4,9 +4,6 @@ function sidenVises() {
     console.log("siden vises");
     document.querySelector(".vinder").addEventListener("click", afspilVinder);
     document.querySelector(".taber").addEventListener("click", afspilTaber);
-
-
-
 }
 
 function afspilVinder() {
@@ -18,4 +15,3 @@ function afspilTaber() {
     console.log("afspil taber");
     document.querySelector("#game_over").play();
 }
-

@@ -337,6 +337,19 @@ video {
 
 /* TEMA 2 */
 
+#tema2_wrapper {
+    display: grid;
+    justify-items: center;
+    width: 100vw;
+    position: relative;
+}
+
+#tema2_wrapper h1 {
+    color: #6187e2;
+    margin: 5rem 2rem;
+    text-align: center;
+}
+
 #screendumps_tema2 {
     display: grid;
     justify-items: center;
@@ -364,6 +377,37 @@ video {
     font-size: 1.3rem;
     color: #0E204C;
 }
+
+/* TEMA 3 */
+
+#tema3_wrapper {
+    display: grid;
+    justify-items: center;
+    width: 100vw;
+    position: relative;
+}
+
+#tema3_wrapper h1 {
+    color: #6187e2;
+    margin: 5rem 2rem;
+    text-align: center;
+}
+
+/* TEMA 4 */
+
+#tema4_wrapper {
+    display: grid;
+    justify-items: center;
+    width: 100vw;
+    position: relative;
+}
+
+#tema4_wrapper h1 {
+    color: #6187e2;
+    margin: 5rem 2rem;
+    text-align: center;
+}
+
 
 
 
@@ -464,8 +508,6 @@ video {
         grid-template-columns: 1fr 1fr;
     }
 
-
-
     #tema_wrapper h1 {
         grid-column: 1/3;
     }
@@ -474,6 +516,42 @@ video {
         grid-column: 1/3;
     }
 
+
+    #tema2_wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #tema2_wrapper h1 {
+        grid-column: 1/3;
+    }
+
+    #tema2_wrapper h2 {
+        grid-column: 1/3;
+    }
+
+     #tema3_wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #tema3_wrapper h1 {
+        grid-column: 1/3;
+    }
+
+    #tema3_wrapper h2 {
+        grid-column: 1/3;
+    }
+
+
+    #tema4_wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+     #tema4_wrapper h1 {
+        grid-column: 1/3;
+    }
+
+    #tema4_wrapper h2 {
+        grid-column: 1/3;
+    }
 
     .billede {
         width: 80%;
@@ -486,7 +564,11 @@ video {
 
 
     .beskrivelse {
-        margin: 3rem 5rem;
+        margin: 4rem 5rem;
+    }
+
+    .tema1 {
+        margin: 10rem 5rem;
     }
 
     #screendumps {
