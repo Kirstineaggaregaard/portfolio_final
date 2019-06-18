@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animation </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="https://use.typekit.net/jvb5kjx.css">
+</head>
+
+<body>
+    <header>
+        <img src="assets/logo.svg" alt="logo">
+
+        <nav>
+            <a href="index.html"> tilbage til portfolio </a>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="tema_wrapper">
+            <h1> CSS Animation || JavaScript </h1>
+            <h2> Anja efter Viktor</h2>
+            <figure class="billede">
+                <img src="assets/anja_efter_viktor.svg" alt="anja_viktor_spil">
+                <a href="http://kirstineaggergaard.dk/kea/02-animation/spil/">
+                    <figcaption class="visit"> Spil spillet </figcaption>
+                </a>
+
+            </figure>
+
+            <div class="beskrivelse">
+                <p>I dette forløb startede jeg ud med at designe og kode mit eget animerede computerspil. Jeg blev introduceret til JavaScript og animationsteknikkerne story telling og karakterdesign. </p>
+
+                <p> I mit spil skal man hjælpe Viktor med at score Anja, de står i et festlokale, og det drysser ned med lyserøde og grå talebobler. Når man klikker på de lyserøde talebobler, lyder der en accepteret scorereplik, som smigre Anja, og man får et point. Når man har klikket på 10 lyserøde talebobler, vinder man spillet. Hvis man derimod kommer til at trykke på de grå talebobler, lyder Anja’s skuffede kommentar, og man mister et hjerte. Når man har mistet tre hjerter, mister Viktor sin chance for romance, og man taber spillet. Hvis tiden når at løbe ud, inden man har 10 point, taber man også spillet. </p>
+
+                <p> Spil designet tager sin inspiration fra flatdesign. Figurerne og ui elementerne er meget simplificerede, og farverne er nøje udvalgte for at ramme 90’er viben fra filmen ’Anja og Viktor – kærlighed ved første hik’, som er inspirationskilden til spillet. </p>
+
+                <a href="dokumantation/03_03_04_Animation_Kirstine.pdf" target="_blank">
+                    Se dokumentationssite her
+                </a>
+
+            </div>
+
+        </section>
+
+        <section id="screendumps_tema2">
+            <figure>
+                <img class="vinder" src="assets/vundet_endscreen.svg" alt="vundet_endscreen">
+                <figcaption class="sd_txt"> Vinder skærm. <br> Tryk på billedet for at afspille lyd. </figcaption>
+            </figure>
+            <figure>
+                <img class="taber" src="assets/tabt_endscreen.svg" alt="tabt_endscreen">
+                <figcaption class="sd_txt"> Taber skærm <br> Tryk på billedet for at afspille lyd. </figcaption>
+            </figure>
+            <figure>
+                <img src="assets/spillebaggrund_med_elementer.svg" alt="spillebaggrund">
+                <figcaption class="sd_txt"> Spilbaggrund med spilelementer </figcaption>
+            </figure>
+
+        </section>
+
+        <section id="tema_wrapper">
+            <h2> Fællesbadet </h2>
+
+            <figure class="billede">
+                <img src="assets/gruppe_spil.svg" alt="faellesbadet">
+                <a href="http://mathiaswind.dk/kea/02-animation/02_js/faellesbadet/">
+                    <figcaption class="visit"> Spil spillet </figcaption>
+                </a>
+            </figure>
+
+            <div class="beskrivelse">
+                <p> I dette forløb skulle vi i et gruppe case-arbejde designe og kode et computerspil. Spillet skulle henvende sig til unge i alderen 13-15 og skulle udvikles for Sex og Samfunds lillesøster organisation Privat Snak, som bad om et spil, der satte fokus på billede deling blandt unge på sociale medier. </p>
+
+                <p> I gruppen havde jeg primært ansvar for koden og særligt JavaScript. Vi udviklede et spil, hvor det gjaldt om at klæde enten en nøgen pige eller dreng på, inden tiden gik, og der ville blive taget et billede på en iPhone. For at give et benspænd på et rimeligt simpelt spil, gav vi tøjelementerne en bestemt rækkefølge, og det blev derved og et spil, hvor brugeren skulle tænke sig om for at komme videre.</p>
+
+                <p> Vi holdt fernisering, hvor vi fik besøg af vores målgruppe. Her fik vi vældig god feedback, nogle af de unge mente dog, vores spil var lidt svært, pga. rækkefølgen på tøjet var bestemt på forhånd, men alle fangede spillets hensigt og morale. </p>
+
+                <p> Under forløbet brugte vi SCRUM, jeg var SCRUM-master og stod for de daglige SCRUM-meetings, som vi først tog i gruppen og dernæst en kort repetition i klassen. SCRUM gjorde det overskueligt og nemt at uddelegere opgaver i gruppen. </p>
+
+                <p> Efter feedback fra lærerne snakkede vi om, at vores spil godt kunne forklares bedre, da det ellers godt kunne opfattes som victim blaming – og det var bestemt IKKE hensigten. Dette kunne reddes med uddybet regelsæt samt vinder og taber skærm. </p>
+
+                <a href="http://mariatangsgaard.dk/gruppe16_dokumentationssite" target="_blank">
+                    Se dokumentationssite her
+                </a>
+
+            </div>
+
+        </section>
+
+        <section id="screendumps">
+            <figure>
+                <img src="assets/vaelg_spiller.svg" alt="vaelg_spiller">
+            </figure>
+            <figure>
+                <img src="assets/in_action_faellesbadet.png" alt="spilskaerm_in_action">
+            </figure>
+            <figure>
+                <img src="assets/you-win.svg" alt="level_complete">
+            </figure>
+            <figure>
+                <img src="assets/gameover.svg" alt="gameover">
+            </figure>
+        </section>
+
+        <footer id="cv_footer">
+            <h3> Kirstine Aggergaard - 1. semester - Multimediedesign - KEA Lygten 16 </h3>
+            <img src="assets/logo.svg" alt="logo">
+        </footer>
+
+    </main>
+
+    <audio id="game_over" src="lyde/viktor_enormt.mp3"></audio>
+
+    <audio id="game_complete" src="lyde/anja_helt_perfekt.mp3"></audio>
+
+
+    <script src="script.js"></script>
+</body></html>
